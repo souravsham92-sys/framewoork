@@ -1,4 +1,4 @@
-import{test}from '@playwright/test'
+import {test} from '@playwright/test'
 import registration from '../test data/registration.json'
 import { Registerpage } from '../pageObjectmodel/register';
 import { Loginpage } from '../pageObjectmodel/login';
