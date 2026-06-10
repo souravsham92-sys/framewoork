@@ -8,7 +8,7 @@ import { Emailfriend } from '../pageObjectmodel/guest.js';
 import tc03 from '../test data/tc03.json'
 import { SocialMediaPage } from '../pageObjectmodel/facebook.js';
 import {tc05 }from "../test data/tc05.json"
-test('registration', async ({page,context}) => {
+test('registration',  async ({page,context}) => {
     await page.goto(registration.url)
 
 //     await page.locator('//a[@class="ico-register"]').click()
